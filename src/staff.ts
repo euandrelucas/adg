@@ -11,15 +11,20 @@ export default {
             autando: '04/05/2022 até o presente momento' as string,
         },
         {
+            invite: 'escoteiros' as string,
+            cargo: 'Administrador' as string,
+            autando: '19/12/2022 até o presente momento' as string,
+        },
+        {
             invite: 'omletarcade' as string,
             cargo: 'Trust & Safety' as string,
             autando: '09/08/2023 até 16/06/2023' as string,
         },
         {
-            invite: 'escoteiros' as string,
-            cargo: 'Administrador' as string,
-            autando: '09/08/2023 até 16/06/2023' as string,
-        }
+            invite: 'bford' as string, // Lancer Nation
+            cargo: 'Moderador' as string,
+            autando: '09/12/2023 até 01/01/2024' as string,
+        },
     ],
     devs: [
         {
