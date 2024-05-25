@@ -23,9 +23,19 @@ export default {
     ],
     devs: [
         {
+            invite: 'dreamteam' as string,
+            cargo: 'Dono' as string,
+            autando: '06/10/2023 até o presente momento' as string,
+        },
+        {
+            invite: 'KQW7enScag' as string, // GoDiscord
+            cargo: 'Desenvolvedor' as string,
+            autando: '04/05/2022 até o presente momento' as string,
+        },
+        {
             invite: 'yoshimia' as string,
             cargo: 'Desenvolvedor' as string,
-            autando: '06/10/2023 até o presente momento' as string,
+            autando: '22/05/2024 até o presente momento' as string,
         }
     ]
 }
