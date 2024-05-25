@@ -107,3 +107,45 @@ footer {
 h1 {
     font-size: 6vw;
 }
+
+/* Media Queries para responsividade */
+@media (max-width: 1024px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .card {
+        width: calc(100% - 20px);
+    }
+
+    .server-info {
+        display: block;
+        text-align: center;
+    }
+
+    .server-info img {
+        margin: 0 auto 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .discord {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section {
+        padding: 10px;
+    }
+}

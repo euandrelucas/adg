@@ -28,6 +28,11 @@ export default {
     ],
     devs: [
         {
+            invite: 'yzFt6kWrju' as string, // ADG Development
+            cargo: 'Dono' as string,
+            autando: '30/01/2023 até o presente momento' as string,
+        },
+        {
             invite: 'dreamteam' as string,
             cargo: 'Dono' as string,
             autando: '06/10/2023 até o presente momento' as string,
