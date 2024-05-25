@@ -15,7 +15,8 @@ export default async function indexRoutes(app: FastifyInstance, opts: any) {
     })
 
     app.get('/dev', async (request, reply) => {
-        return reply.type('text/html').send(dev.buildStaticPage());
+        const staticPage = await (await dev).buildStaticPage()
+        return reply.type('text/html').send(staticPage);
     })
 
     app.get('/contact', async (request, reply) => {

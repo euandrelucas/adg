@@ -81,7 +81,7 @@ async function initPage() {
     const page = new Page({
         components: [header, navbar, footer],
         page: {
-            title: 'Home',
+            title: 'Moderação',
             content: `
             <section id="content">
                 <h2>Moderação de Servidores</h2>

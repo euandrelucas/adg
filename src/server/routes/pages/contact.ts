@@ -6,7 +6,7 @@ import footer from "./components/footer.js";
 export default new Page({
     components: [header, navbar, footer],
     page: {
-        title: 'Home',
+        title: 'Contato',
         content: `
         <section id="content">
             <h2>Contato</h2>
