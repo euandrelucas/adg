@@ -1,0 +1,20 @@
+{
+  "name": "@adg/portfolio",
+  "version": "1.0",
+  "main": "dist/server/index.js",
+  "type": "module",
+  "scripts": {
+    "bundle": "tsc && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.4",
+    "fastify": "^4.27.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
