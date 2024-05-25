@@ -15,7 +15,6 @@ const cachedData = [] as cachedData[];
 async function fetchServerData() {
     const cachedServerData = cachedData.find(data => Date.now() - data.time < 600000);
     if (cachedServerData) {
-        console.log('Dados do servidor em cache:', cachedServerData);
         let partnerOrVerified = ''
         return cachedData.map(data => {
         if (data.guild.features.includes('VERIFIED')) {
@@ -38,10 +37,8 @@ async function fetchServerData() {
     }).join('');
     } else {
         let partnerOrVerified = ''
-        console.log('Buscando dados dos servidores...');
         const serverCards = await Promise.all(staffList.guilds.map(async staff => {
             try {
-                console.log(`Buscando dados do servidor com convite ${staff.invite}...`);
                 const response = await axios.get(`https://discord.com/api/v9/invites/${staff.invite}`);
                 const guild = response.data.guild;
                 cachedData.push({

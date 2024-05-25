@@ -1,7 +1,9 @@
 import Fastify from 'fastify'
 import fastifyStatic from '@fastify/static'
 
-const fastify = Fastify()
+const fastify = Fastify({
+    logger: true
+})
 
 fastify.register(import('@fastify/compress'))
 
