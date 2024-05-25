@@ -72,23 +72,25 @@ footer {
     width: calc(33.33% - 20px);
     display: inline-block;
     vertical-align: top;
-    text-align: center; /* Centraliza todo o conteúdo dentro do card */
+    text-align: center;
 }
 
 .card img {
     max-width: 100px;
     max-height: 100px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
 }
 
 .card h3 {
     margin-top: 0;
+    text-align: center;
 }
 
 .server-info {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
@@ -102,6 +104,7 @@ footer {
 .server-info h3 {
     margin: 0;
     font-size: 1.2em;
+    text-align: center; /* Centraliza o texto */
 }
 
 h1 {
