@@ -11,6 +11,11 @@ export default {
             autando: '04/05/2022 até o presente momento' as string,
         },
         {
+            invite: 'PQCaCwsuee' as string, // Black Lotus
+            cargo: 'Cordenador' as string,
+            autando: '09/04/2023 até o presente momento' as string,
+        },
+        {
             invite: 'escoteiros' as string,
             cargo: 'Administrador' as string,
             autando: '19/12/2022 até o presente momento' as string,

@@ -41,6 +41,10 @@ export default class Page {
         <link rel="stylesheet" href="/styles/main.css">
         <script src="https://unpkg.com/htmx.org@1.9.12/dist/htmx.min.js"></script>
         ${this.page.title ? `<title>${this.page.title}</title>` : ''}
+        <meta content="ADG" property="og:site_name">
+        <meta content="Olá, e me chamo ADG, Gerente de Comunidades, Desenvolvedor, e um carinha gente boa :) " property="og:description">
+        <meta content="ADG" property="og:title">
+        <meta content="https://andrepaiva.dev/assets/ADG.jpg" property="og:image">
         <meta charset="UTF-8">
         ${this.page.styles ? `<style>${this.page.styles}</style>` : ''}
         </head>
