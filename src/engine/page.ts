@@ -36,16 +36,21 @@ export default class Page {
         const footer = this.components.find(component => component.type === 'footer');
         return `
         <!DOCTYPE html>
+        <html lang="pt-BR">
         <head>
+        <link rel="stylesheet" href="/styles/main.css">
         <script src="https://unpkg.com/htmx.org@1.9.12/dist/htmx.min.js"></script>
         ${this.page.title ? `<title>${this.page.title}</title>` : ''}
-        </head>
+        <meta charset="UTF-8">
         ${this.page.styles ? `<style>${this.page.styles}</style>` : ''}
+        </head>
+        <body>
         ${header?.content || ''}
         ${navbar?.content || ''}
-        ${this.page.content ? `<body>${this.page.content}</body>` : ''}
+        ${this.page.content ? `${this.page.content}` : ''}
         ${this.page.scripts ? `<script>${this.page.scripts}</script>` : ''}
         ${footer?.content ? `<footer>${footer.content}</footer>` : ''}
+        </body>
         </html>
         `
     }

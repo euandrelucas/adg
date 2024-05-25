@@ -4,7 +4,7 @@ export default new Component({
     type: 'header',
     content: `
     <header>
-        <h1>Seu Nome</h1>
+        <h1>ADG</h1>
     </header>
     `
 })

@@ -9,8 +9,10 @@ export default new Page({
         title: 'Home',
         content: `
         <section id="content">
-            <h2>Portfólio</h2>
-            <p>Bem-vindo ao meu portfólio. Aqui você pode encontrar informações sobre meus projetos e habilidades.</p>
+            <h2>Contato</h2>
+            <p>Para entrar em contato comigo, você pode me encontrar no Discord ou enviar um e-mail.</p>
+            <a class="discord" href="https://discord.com/users/717766639260532826">Meu Discord</a>
+            <p>Email: discord@andrepaiva.dev</p>
         </section>
         `
     }

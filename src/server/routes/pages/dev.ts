@@ -9,8 +9,8 @@ export default new Page({
         title: 'Home',
         content: `
         <section id="content">
-            <h2>Portfólio</h2>
-            <p>Bem-vindo ao meu portfólio. Aqui você pode encontrar informações sobre meus projetos e habilidades.</p>
+            <h2>Desenvolvimento de Bots</h2>
+            <p>Sou especializado no desenvolvimento personalizado de bots para o Discord. Posso criar bots para automatizar tarefas, moderar servidores e oferecer uma experiência única aos usuários.</p>
         </section>
         `
     }

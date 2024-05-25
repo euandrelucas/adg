@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/compress": "^7.0.3",
     "@fastify/static": "^7.0.4",
+    "axios": "^1.7.2",
     "fastify": "^4.27.0",
     "typescript": "^5.4.5"
   },

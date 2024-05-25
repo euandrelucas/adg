@@ -1,15 +1,13 @@
 import Fastify from 'fastify'
 import fastifyStatic from '@fastify/static'
 
-import indexRoutes from './routes/index.js'
+const fastify = Fastify()
 
-const fastify = Fastify({
-    logger: true
-})
+fastify.register(import('@fastify/compress'))
 
 fastify.register(fastifyStatic, {
     root: process.cwd() + '/public',
-    prefix: '/public/'
+    prefix: '/'
 })
 
 fastify.register(import('./routes/index.js'), { prefix: '/' })
