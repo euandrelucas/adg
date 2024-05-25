@@ -36,4 +36,4 @@ jobs:
       - name: Stopping website
         run: ssh prod 'bash -i -c "pm2 stop adgportfolio"'
       - name: Starting website
-        run: ssh prod 'bash -i -c "pm2 start dist/server/index.js --name adgportfolio"'
+        run: ssh prod 'bash -i -c "cd adg && pm2 start dist/server/index.js --name adgportfolio"'
