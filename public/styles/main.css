@@ -107,6 +107,22 @@ footer {
     text-align: center; /* Centraliza o texto */
 }
 
+/* Quero sem decoraçao nas bordas */
+.buttonServer {
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+.buttonServer:hover {
+    cursor: pointer;
+}
+
 h1 {
     font-size: 6vw;
 }
@@ -151,4 +167,153 @@ h1 {
     section {
         padding: 10px;
     }
+}
+
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2c2f33;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-post header {
+    background-color: #7289da;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-post header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.blog-post nav {
+    background-color: #2c2f33;
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-post nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.blog-post nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blog-post section {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-post .discord {
+    display: inline-block;
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.blog-post .discord:hover {
+    background-color: #677bc4;
+}
+
+.blog-post footer {
+    background-color: #2c2f33;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+.blog-post .card {
+    background-color: #2c2f33;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.blog-post .card img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.blog-post .card h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.blog-post .server-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.blog-post .server-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.blog-post .server-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center; /* Centraliza o texto */
+}
+
+.blog-post .buttonServer {
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+.blog-post .buttonServer:hover {
+    cursor: pointer;
+}
+
+.blog-post h1 {
+    font-size: 2.5em; /* Tamanho ajustado para h1 */
+}
+
+.blog-post h2 {
+    font-size: 2em; /* Tamanho ajustado para h2 */
+}
+
+.blog-post h3 {
+    font-size: 1.75em; /* Tamanho ajustado para h3 */
+}
+
+.blog-post h4 {
+    font-size: 1.5em; /* Tamanho ajustado para h4 */
+}
+
+.blog-post h5 {
+    font-size: 1.25em; /* Tamanho ajustado para h5 */
+}
+
+.blog-post h6 {
+    font-size: 1em; /* Tamanho ajustado para h6 */
 }

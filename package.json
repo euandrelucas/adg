@@ -10,14 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fastify/compress": "^7.0.3",
     "@fastify/static": "^7.0.4",
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "fastify": "^4.27.0",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^14.1.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/markdown-it": "^14.1.1",
     "@types/node": "^20.12.12"
   }
 }

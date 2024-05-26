@@ -31,8 +31,8 @@ async function fetchServerData() {
             ${partnerOrVerified}<h3>${data.guild.name}</h3>
             </div>
             <p>${data.guild.description || ''}</p>
-            <a href="https://discord.com/invite/${data.guild.invite}" target="_blank">Acessar Servidor</a>
-        </div>
+            <a href="https://discord.com/invite/${data.guild.invite}" target="_blank"><button class="buttonServer">Acessar Servidor</button></a>
+            </div>
         `
     }).join('');
     } else {
@@ -60,7 +60,7 @@ async function fetchServerData() {
                     </div>
                     <p>Cargo: ${staff.cargo}</p>
                     <p>${guild.description || ''}<br>${staff.autando}</p>
-                    <a href="https://discord.com/invite/${staff.invite}" target="_blank">Acessar Servidor</a>
+                    <a href="https://discord.com/invite/${staff.invite}" target="_blank"><button class="buttonServer">Acessar Servidor</button></a>
                 </div>
                 `;
             } catch (error) {
