@@ -12,7 +12,7 @@ export default async function indexRoutes(app: FastifyInstance, opts: any) {
     app.get('/read/:post', async (request: FastifyRequest<{ Params: { post: string } }>, reply) => {
         try {
             const { post } = request.params
-            const content = await axios.get(`http://localhost:3000/api/get/post/${post}`)
+            const content = await axios.get(`http://localhost:${process.env.PORT}/api/get/post/${post}`)
             const staticPage = await (await read(content.data)).buildStaticPage()
             return reply.type('text/html').send(staticPage);
         } catch (e) {
