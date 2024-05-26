@@ -58,9 +58,10 @@ footer {
     background-color: #2c2f33;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 5%;
 }
 
 .card {
@@ -129,12 +130,26 @@ h1 {
 }
 
 .blog-post {
-    max-width: 800px;
+    max-width: 80%;
+    min-width: 50%;
     margin: 0 auto;
     padding: 20px;
     background-color: #2c2f33;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.blog-post a {
+    color: #7289da;
+    text-decoration: none;
 }
 
 .blog-post header {
