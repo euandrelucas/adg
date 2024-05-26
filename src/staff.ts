@@ -43,12 +43,12 @@ export default {
         {
             invite: 'BmbcmWdT3X' as string, // Cantinho da rio
             cargo: 'Maker' as string,
-            atuando: 'Fui responsável por confeccionar o servidor'
+            autando: 'Fui responsável por confeccionar o servidor'
         },
         {
             invite: 'lalaismo' as string,
             cargo: 'Ex-Moderador' as string,
-            atuando: 'Não lembro datas'
+            autando: 'Não lembro datas'
         }
     ],
     devs: [
