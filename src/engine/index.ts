@@ -14,7 +14,6 @@ export default class AdgWebpages {
             const content = page.render();
             console.log(`Building page ${page.page.title}`);
             console.log(`Saving page ${page.page.title} in ${this.dir}`);
-            console.log(content);
         })
     }
 
@@ -22,7 +21,6 @@ export default class AdgWebpages {
         const content = page.render();
         console.log(`Building page ${page.page.title}`);
         console.log(`Saving page ${page.page.title} in ${this.dir}`);
-        console.log(content);
     }
 
     saveStaticFiles() {

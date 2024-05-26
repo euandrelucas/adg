@@ -24,7 +24,7 @@ async function initPage(post: Post) {
     const page = new Page({
         components: [header, navbar, footer],
         page: {
-            title: 'Moderação',
+            title: dynamicContent.frontmatter.title,
             content: `
             <section id="content">
                 <h2>${dynamicContent.frontmatter.title}</h2>
