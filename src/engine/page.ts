@@ -8,6 +8,7 @@ interface PageData {
     content: string
     styles?: string
     scripts?: string
+    tags?: string
 }
 
 export default class Page {
@@ -16,13 +17,15 @@ export default class Page {
         content: ''
     }
 
-    constructor({ components, page, styles, scripts }: { components: Components[], page: PageData, styles?: string, scripts?: string}) {
+    constructor({ components, page, styles, scripts, tags }: { components: Components[], page: PageData, styles?: string, scripts?: string, tags?: string }) {
         this.components = components;
         this.page = page;
         if (styles) {
             this.page.styles = styles;
         } else if (scripts) {
             this.page.scripts = scripts;
+        } else if (tags) {
+            this.page.tags = tags;
         }
     }
 
@@ -45,6 +48,7 @@ export default class Page {
         <link rel="stylesheet" href="/styles/main.css">
         <script src="https://unpkg.com/htmx.org@1.9.12/dist/htmx.min.js"></script>
         ${this.page.title ? `<title>${this.page.title}</title>` : ''}
+        ${this.page.tags ? `<meta name="keywords" content="${this.page.tags}">` : ''}
         <meta content="ADG" property="og:site_name">
         <meta content="Olá, e me chamo ADG, Gerente de Comunidades, Desenvolvedor, e um carinha gente boa :) " property="og:description">
         <meta content="ADG" property="og:title">

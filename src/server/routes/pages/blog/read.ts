@@ -34,7 +34,8 @@ async function initPage(post: Post) {
                 </div>
             </section>
             `
-        }
+        },
+        tags: dynamicContent.frontmatter.tag
     });
     return page
 }
