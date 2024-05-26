@@ -6,7 +6,7 @@ body {
     color: #ffffff;
 }
 
-header {
+.header {
     background-color: #7289da;
     padding: 20px;
     text-align: center;
@@ -17,7 +17,7 @@ header h1 {
     font-size: 36px;
 }
 
-nav {
+.nav {
     background-color: #2c2f33;
     padding: 10px;
     text-align: center;
@@ -54,7 +54,7 @@ nav a:hover {
     background-color: #677bc4;
 }
 
-footer {
+.footer {
     background-color: #2c2f33;
     padding: 10px;
     text-align: center;
@@ -155,7 +155,6 @@ h1 {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
-    align-items: center;
 }
 
 .blog-post a {

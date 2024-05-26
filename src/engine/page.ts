@@ -64,7 +64,7 @@ export default class Page {
         ${navbar?.content || ''}
         ${this.page.content ? `${this.page.content}` : ''}
         ${this.page.scripts ? `<script>${this.page.scripts}</script>` : ''}
-        ${footer?.content ? `<footer>${footer.content}</footer>` : ''}
+        ${footer?.content ? `<footer class="footer">${footer.content}</footer>` : ''}
         </body>
         </html>
         `
