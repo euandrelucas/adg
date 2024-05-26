@@ -142,8 +142,8 @@ h1 {
 }
 
 .blog-post {
-    max-width: 80%;
-    min-width: 50%;
+    max-width: 60%;
+    min-width: 30%;
     margin: 0 auto;
     padding: 20px;
     background-color: #2c2f33;
