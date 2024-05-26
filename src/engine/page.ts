@@ -34,6 +34,11 @@ export default class Page {
         const header = this.components.find(component => component.type === 'header');
         const navbar = this.components.find(component => component.type === 'navbar');
         const footer = this.components.find(component => component.type === 'footer');
+        /*
+        <div class="gtranslate_wrapper"></div>
+        <script>window.gtranslateSettings = {"default_language":"pt","detect_browser_language":true,"languages":["pt","en","es"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil","es":"mexico"}}</script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+        */
         return `<!DOCTYPE html>
         <html lang="pt-BR">
         <head>
@@ -45,9 +50,7 @@ export default class Page {
         <meta content="ADG" property="og:title">
         <meta content="https://andrepaiva.dev/assets/ADG.jpg" property="og:image">
         <meta charset="UTF-8">
-        <div class="gtranslate_wrapper"></div>
-        <script>window.gtranslateSettings = {"default_language":"pt","detect_browser_language":true,"languages":["pt","en","es"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil","es":"mexico"}}</script>
-        <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         ${this.page.styles ? `<style>${this.page.styles}</style>` : ''}
         </head>
         <body>
