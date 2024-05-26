@@ -51,6 +51,7 @@ export default class Page {
         <meta content="https://andrepaiva.dev/assets/ADG.jpg" property="og:image">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer data-domain="andrepaiva.dev" src="https://plausible.dreamteam.futbol/js/script.js"></script>
         ${this.page.styles ? `<style>${this.page.styles}</style>` : ''}
         </head>
         <body>
