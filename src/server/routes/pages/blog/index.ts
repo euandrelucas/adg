@@ -23,7 +23,7 @@ async function fetchServerData() {
     let fixedPost = ''
     const cards = posts.map((post: Post) => {
         if (post.frontmatter.fixed) {
-            fixedPost = `<img src="/assets/pushpin.webp" width="30" height="30" alt="Post fixado">`
+            fixedPost = `<img class="iconbg" src="/assets/pushpin.webp" width="10" height="10" alt="Post fixado">`
         } else {
             fixedPost = ''
         }

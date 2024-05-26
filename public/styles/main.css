@@ -96,7 +96,13 @@ footer {
     margin-top: 10px;
 }
 
-.server-info img {
+.server-info .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.iconbg {
     width: 40px;
     height: 40px;
     margin-right: 10px;
@@ -142,7 +148,6 @@ h1 {
 .blog-post img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
     margin-top: 10px;
     align-items: center;
 }

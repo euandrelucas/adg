@@ -18,9 +18,9 @@ async function fetchServerData() {
         let partnerOrVerified = ''
         return cachedData.map(data => {
         if (data.guild.features.includes('VERIFIED')) {
-            partnerOrVerified = `<img src="/assets/discverified.webp" width="30" height="30" alt="Ícone do Servidor">`;
+            partnerOrVerified = `<img class="img" src="/assets/discverified.webp" width="30" height="30" alt="Ícone do Servidor">`;
         } else if (data.guild.features.includes('PARTNERED')) {
-            partnerOrVerified = `<img src="/assets/discpartner.webp" width="30" height="30" alt="Ícone do Servidor">`;
+            partnerOrVerified = `<img class="img" src="/assets/discpartner.webp" width="30" height="30" alt="Ícone do Servidor">`;
         } else {
             partnerOrVerified = '';
         } 
@@ -46,9 +46,9 @@ async function fetchServerData() {
                     time: Date.now()
                 });
                 if (guild.features.includes('VERIFIED')) {
-                    partnerOrVerified = `<img src="/assets/discverified.webp" width="30" height="30" alt="Ícone do Servidor">`;
+                    partnerOrVerified = `<img class="img" src="/assets/discverified.webp" width="30" height="30" alt="Ícone do Servidor">`;
                 } else if (guild.features.includes('PARTNERED')) {
-                    partnerOrVerified = `<img src="/assets/discpartner.webp" width="30" height="30" alt="Ícone do Servidor">`;
+                    partnerOrVerified = `<img class="img" src="/assets/discpartner.webp" width="30" height="30" alt="Ícone do Servidor">`;
                 } else {
                     partnerOrVerified = '';
                 }             
