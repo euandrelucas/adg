@@ -83,7 +83,7 @@ async function initPage() {
         page: {
             title: 'Moderação',
             content: `
-            <section id="content">
+            <section class="section" id="content">
                 <h2>Moderação de Servidores</h2>
                 <p>Tenho experiência em moderar comunidades online, especialmente em plataformas como o Discord. Garanto um ambiente seguro e amigável para todos os membros.</p>
                 ${dynamicContent}

@@ -19,4 +19,28 @@ export default async function indexRoutes(app: FastifyInstance, opts: any) {
             return reply.redirect('/blog')
         }
     })
+
+    app.get('/rss', async (request, reply) => {
+        const response = await axios.get(`http://localhost:${process.env.PORT}/api/get/posts`)
+        const posts = response.data;
+        const rss = `<?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0">
+        <channel>
+        <title>Blog</title>
+        <link>${process.env.FQDN}/blog</link>
+        <description>Feed RSS do blog</description>
+        ${posts.map((post: any) => {
+            return `
+            <item>
+            <title>${post.frontmatter.title}</title>
+            <link>${process.env.FQDN}/blog/read/${post.frontmatter.fileName.replace('.mdx', '')}</link>
+            <description>${post.frontmatter.description}</description>
+            </item>
+            `
+        }).join('')}
+        </channel>
+        </rss>`
+        const formatedRss = rss.replace(/\s{2,}/g, ' ').replace(/>\s+</g, '><');
+        return reply.type('text/xml').send(formatedRss);
+    })
 }

@@ -27,8 +27,8 @@ async function initPage(post: Post) {
             title: dynamicContent.frontmatter.title,
             content: `
             <section id="content">
-                <h2>${dynamicContent.frontmatter.title}</h2>
-                <p>${dynamicContent.frontmatter.description}</p>
+                <h2 class="section">${dynamicContent.frontmatter.title}</h2>
+                <p class="section">${dynamicContent.frontmatter.description}</p>
                 <div class="blog-post">
                 ${html}
                 </div>

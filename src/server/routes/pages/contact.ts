@@ -8,7 +8,7 @@ export default new Page({
     page: {
         title: 'Contato',
         content: `
-        <section id="content">
+        <section class="section" id="content">
             <h2>Contato</h2>
             <p>Para entrar em contato comigo, você pode me encontrar no Discord ou enviar um e-mail.</p>
             <a class="discord" href="https://discord.com/users/717766639260532826">Meu Discord</a>

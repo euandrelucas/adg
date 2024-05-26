@@ -34,7 +34,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-section {
+.section {
     padding: 20px;
     text-align: center;
 }

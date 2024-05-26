@@ -83,7 +83,7 @@ async function initPage() {
         page: {
             title: 'Desenvolvedor',
             content: `
-            <section id="content">
+            <section class="section" id="content">
                 <h2>Desenvolvimento de Bots</h2>
                 <p>Sou especializado no desenvolvimento personalizado de bots para o Discord. Posso criar bots para automatizar tarefas, moderar servidores e oferecer uma experiência única aos usuários.</p>
                 ${dynamicContent}
