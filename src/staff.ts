@@ -12,7 +12,7 @@ export default {
         },
         {
             invite: 'PQCaCwsuee' as string, // Black Lotus
-            cargo: 'Cordenador' as string,
+            cargo: 'Coordenador' as string,
             autando: '09/04/2023 até o presente momento' as string,
         },
         {
@@ -21,15 +21,35 @@ export default {
             autando: '19/12/2022 até o presente momento' as string,
         },
         {
+            invite: 'lofimusic' as string, // Starz
+            cargo: 'Moderador' as string,
+            autando: '15/05/2024 até o presente momento' as string,
+        },
+        {
+            invite: 'sosrs' as string, // SOS Rio Grande do Sul
+            cargo: 'Colaborador' as string,
+            autando: '10/05/2024 até o presente momento' as string
+        },
+        {
             invite: 'omletarcade' as string,
-            cargo: 'Trust & Safety' as string,
+            cargo: 'Ex-Trust & Safety' as string,
             autando: '09/08/2023 até 16/06/2023' as string,
         },
         {
             invite: 'bford' as string, // Lancer Nation
-            cargo: 'Moderador' as string,
+            cargo: 'Ex-Moderador' as string,
             autando: '09/12/2023 até 01/01/2024' as string,
         },
+        {
+            invite: 'BmbcmWdT3X' as string, // Cantinho da rio
+            cargo: 'Maker' as string,
+            atuando: 'Fui responsável por confeccionar o servidor'
+        },
+        {
+            invite: 'lalaismo' as string,
+            cargo: 'Ex-Moderador' as string,
+            atuando: 'Não lembro datas'
+        }
     ],
     devs: [
         {

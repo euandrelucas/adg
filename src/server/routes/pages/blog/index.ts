@@ -48,8 +48,8 @@ async function initPage() {
             title: 'Blog',
             content: `
             <section class="section" id="content">
-                <h2>Portfólio</h2>
-                <p>Bem-vindo ao meu portfólio. Aqui você pode encontrar informações sobre meus projetos e habilidades.</p>
+                <h2>Blog</h2>
+                <p>Bem-vindo eo meu blog, aqui você poderá encontrar postagens interessantes, ou apenas filosifas aleatórias minhas, quando não tenho o que fazer.</p>
                 ${dynamicContent}
             </section>
             `

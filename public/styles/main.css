@@ -89,6 +89,12 @@ footer {
     text-align: center;
 }
 
+.aboutMeText {
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 .server-info {
     display: flex;
     justify-content: center;
