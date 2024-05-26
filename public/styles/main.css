@@ -166,7 +166,7 @@ h1 {
 .blog-post header {
     background-color: #7289da;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px 10px 0 0;
 }
 
@@ -178,7 +178,7 @@ h1 {
 .blog-post nav {
     background-color: #2c2f33;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .blog-post nav a {
@@ -194,7 +194,7 @@ h1 {
 
 .blog-post section {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .blog-post .discord {
@@ -215,7 +215,7 @@ h1 {
 .blog-post footer {
     background-color: #2c2f33;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-radius: 0 0 10px 10px;
     margin-top: 20px;
 }
@@ -229,7 +229,7 @@ h1 {
     width: calc(33.33% - 20px);
     display: inline-block;
     vertical-align: top;
-    text-align: center;
+    text-align: left;
 }
 
 .blog-post .card img {
@@ -242,13 +242,11 @@ h1 {
 
 .blog-post .card h3 {
     margin-top: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .blog-post .server-info {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
 }
 
@@ -261,7 +259,7 @@ h1 {
 .blog-post .server-info h3 {
     margin: 0;
     font-size: 1.2em;
-    text-align: center; /* Centraliza o texto */
+    text-align: left;
 }
 
 .blog-post .buttonServer {
