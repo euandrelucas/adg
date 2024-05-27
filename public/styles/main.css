@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #36393f;
@@ -14,28 +14,33 @@ body {
     background-color: #7289da;
     padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #202225;
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
+    color: #ffffff;
 }
 
 .nav {
     background-color: #2c2f33;
     padding: 10px;
     text-align: center;
+    border-bottom: 1px solid #202225;
 }
 
 nav a {
-    color: #ffffff;
+    color: #b9bbbe;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 14px;
 }
 
 nav a:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .section {
@@ -52,6 +57,7 @@ nav a:hover {
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
+    transition: background-color 0.2s ease;
 }
 
 .discord:hover {
@@ -61,11 +67,8 @@ nav a:hover {
 .footer {
     background-color: #2c2f33;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 5%;
     padding: 10px;
+    border-top: 1px solid #202225;
 }
 
 .card {
@@ -78,6 +81,12 @@ nav a:hover {
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -95,8 +104,7 @@ nav a:hover {
 
 .aboutMeText {
     text-align: left;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 0 10%;
 }
 
 .server-info {
@@ -106,12 +114,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.server-info .img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
+.server-info .img,
 .iconbg {
     width: 40px;
     height: 40px;
@@ -121,10 +124,9 @@ nav a:hover {
 .server-info h3 {
     margin: 0;
     font-size: 1.2em;
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
-/* Quero sem decoraçao nas bordas */
 .buttonServer {
     background-color: #7289da;
     color: #ffffff;
@@ -134,6 +136,7 @@ nav a:hover {
     font-weight: bold;
     margin-top: 20px;
     border: none;
+    transition: background-color 0.2s ease;
 }
 
 .buttonServer:hover {
@@ -176,6 +179,7 @@ h1 {
 .blog-post header h1 {
     margin: 0;
     font-size: 36px;
+    color: #ffffff;
 }
 
 .blog-post nav {
@@ -185,7 +189,7 @@ h1 {
 }
 
 .blog-post nav a {
-    color: #ffffff;
+    color: #b9bbbe;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -193,6 +197,7 @@ h1 {
 .blog-post nav a:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .blog-post section {
@@ -209,6 +214,7 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
+    transition: background-color 0.2s ease;
 }
 
 .blog-post .discord:hover {
@@ -233,6 +239,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .blog-post .card img {
@@ -274,9 +281,11 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
     border: none;
+    transition: background-color 0.2s ease;
 }
 
 .blog-post .buttonServer:hover {
+    background-color: #677bc4;
     cursor: pointer;
 }
 
