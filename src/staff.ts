@@ -21,7 +21,7 @@ export default {
             autando: '19/12/2022 até o presente momento' as string,
         },
         {
-            invite: 'lofimusic' as string, // Starz
+            invite: 'starzlofimusicsocialchat-947989953869152266' as string, // Starz
             cargo: 'Moderador' as string,
             autando: '15/05/2024 até o presente momento' as string,
         },
