@@ -68,6 +68,11 @@ export default {
             autando: '04/05/2022 até o presente momento' as string,
         },
         {
+            invite: 'gou' as string,
+            cargo: 'Desenvolvedor' as string,
+            autando: '01/06/2024 até o presente momento' as string,
+        },
+        {
             invite: 'yoshimia' as string,
             cargo: 'Desenvolvedor' as string,
             autando: '22/05/2024 até o presente momento' as string,
