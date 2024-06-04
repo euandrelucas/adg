@@ -55,6 +55,7 @@ export default class Page {
         <meta content="https://andrepaiva.dev/assets/ADG.jpg" property="og:image">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Olá, e me chamo ADG (André Paiva), Gerente de Comunidades, Desenvolvedor, e um carinha gente boa :) ">
         <script defer data-domain="andrepaiva.dev" src="https://plausible.dreamteam.futbol/js/script.js"></script>
         <link rel="icon" type="image/x-icon" href="https://andrepaiva.dev/favicon.ico">
         ${this.page.styles ? `<style>${this.page.styles}</style>` : ''}

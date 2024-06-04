@@ -1,6 +1,8 @@
 import Component from "../../../../engine/component.js";
 
+const ano = new Date().getFullYear()
+
 export default new Component({
     type: 'footer',
-    content: `<p>&copy; 2024 ADG. Todos os direitos reservados.</p>`
+    content: `<p>&copy; ${ano} ADG. Todos os direitos reservados.</p>`
 })
