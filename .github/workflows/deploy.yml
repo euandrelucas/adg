@@ -29,11 +29,9 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
       - name: Cloning repository
         run: ssh prod 'cd adg && git fetch && git reset --hard origin/main'
-      - name: Install dependencies
-        run: ssh prod 'bash -i -c "cd adg && npm install"'
-      - name: Compiling TypeScript
-        run: ssh prod 'bash -i -c "cd adg && rm -rf dist && npx tsc"'
-      - name: Stopping website
-        run: ssh prod 'bash -i -c "pm2 stop adgportfolio"'
-      - name: Starting website
-        run: ssh prod 'bash -i -c "cd adg && pm2 start dist/server/index.js --name adgportfolio"'
+      - name: Building container
+        run: ssh prod 'bash -i -c "cd adg && docker build -t adg/portfolio ."'
+      - name: Stopping container
+        run: ssh prod 'bash -i -c "docker stop andrepaiva.dev && docker rm --force andrepaiva.dev"'
+      - name: Starting container
+        run: ssh prod 'bash -i -c "cd adg && docker run -d -p 5467:5467 --name andrepaiva.dev adg/portfolio"'
