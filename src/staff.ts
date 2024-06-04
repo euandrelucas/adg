@@ -21,11 +21,6 @@ export default {
             autando: '19/12/2022 até o presente momento' as string,
         },
         {
-            invite: 'starzlofimusicsocialchat-947989953869152266' as string, // Starz
-            cargo: 'Moderador' as string,
-            autando: '15/05/2024 até o presente momento' as string,
-        },
-        {
             invite: 'sosrs' as string, // SOS Rio Grande do Sul
             cargo: 'Colaborador' as string,
             autando: '10/05/2024 até o presente momento' as string
