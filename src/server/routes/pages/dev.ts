@@ -26,7 +26,7 @@ async function fetchServerData() {
         } 
         return `
         <div class="card">
-            <img src="https://cdn.discordapp.com/icons/${data.guild.id}/${data.guild.icon}" alt="Ícone do Servidor">
+            <img src="https://cdn.discordapp.com/icons/${data.guild.id}/${data.guild.icon}.webp" alt="Ícone do Servidor">
             <div class="server-info">
             ${partnerOrVerified}<h3>${data.guild.name}</h3>
             </div>
@@ -54,7 +54,7 @@ async function fetchServerData() {
                 }             
                 return `
                 <div class="card">
-                    <img src="https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}" alt="Ícone do Servidor">
+                    <img src="https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}.webp" alt="Ícone do Servidor">
                     <div class="server-info">
                     ${partnerOrVerified}<h3>${guild.name}</h3>
                     </div>
