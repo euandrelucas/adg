@@ -5,12 +5,6 @@ WORKDIR /usr/src/app
 
 # Install bun
 RUN apt update && apt install -y curl
-
-# Copy the entrypoint script
-COPY entrypoint.sh /usr/src/app/entrypoint.sh
-RUN chmod +x /usr/src/app/entrypoint.sh
-
-# Install bun
 RUN curl -fsSL https://bun.sh/install | bash
 
 # Add bun to PATH
@@ -28,9 +22,6 @@ RUN bun prod:build
 
 # Expose the port
 EXPOSE 5467
-
-# Set entrypoint
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 
 # Start the app
 CMD ["bun", "prod:start"]
