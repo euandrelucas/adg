@@ -4,7 +4,9 @@
   "main": "dist/server/index.js",
   "type": "module",
   "scripts": {
-    "bundle": "tsc && node ."
+    "bundle": "tsc && node .",
+    "prod:build": "bun tsc",
+    "prod:start": "bun run dist/server/index.js"
   },
   "keywords": [],
   "author": "",
