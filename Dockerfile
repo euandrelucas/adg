@@ -6,10 +6,10 @@ WORKDIR /usr/src/app
 # Install bun
 RUN apt install -y curl
 RUN curl -fsSL https://bun.sh/install | bash
-RUN bun upgrade
 
 # Install app dependencies
 COPY package*.json ./
+RUN bun upgrade
 RUN bun install
 
 # Bundle app source

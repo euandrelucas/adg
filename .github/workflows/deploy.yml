@@ -34,4 +34,4 @@ jobs:
       - name: Stopping container
         run: ssh prod 'bash -i -c "docker stop andrepaiva.dev && docker rm --force andrepaiva.dev"'
       - name: Starting container
-        run: ssh prod 'bash -i -c "cd adg && docker run -d -p 5467:5467 --name andrepaiva.dev adg/portfolio"'
+        run: ssh prod 'bash -i -c "cd adg && docker run -d -p 5467:5467 --name andrepaiva.dev --restart always adg/portfolio"'
