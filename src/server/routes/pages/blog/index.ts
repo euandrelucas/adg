@@ -18,7 +18,7 @@ interface Post {
 }
 
 async function fetchServerData() {
-    const response = await axios.get(`http://127.0.0.1:${process.env.PORT}/api/get/posts`)
+    const response = await axios.get(`http://[::1]:${process.env.PORT}/api/get/posts`)
     const posts = response.data;
     let fixedPost = ''
     const cards = posts.map((post: Post) => {
