@@ -12,7 +12,7 @@ export default async function indexRoutes(app: FastifyInstance, opts: any) {
     app.get('/read/:post', async (request: FastifyRequest<{ Params: { post: string } }>, reply) => {
         try {
             const { post } = request.params
-            const content = await axios.get(`http://[::1]:${process.env.PORT}/api/get/post/${post}`)
+            const content = await axios.get(`http://localhost:${process.env.PORT}/api/get/post/${post}`)
             const staticPage = await (await read(content.data)).buildStaticPage()
             return reply.type('text/html').send(staticPage);
         } catch (e) {
@@ -21,7 +21,7 @@ export default async function indexRoutes(app: FastifyInstance, opts: any) {
     })
 
     app.get('/rss', async (request, reply) => {
-        const response = await axios.get(`http://[::1]:${process.env.PORT}/api/get/posts`)
+        const response = await axios.get(`http://localhost:${process.env.PORT}/api/get/posts`)
         const posts = response.data;
         const rss = `<?xml version="1.0" encoding="UTF-8" ?>
         <rss version="2.0">
