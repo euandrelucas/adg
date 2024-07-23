@@ -48,6 +48,11 @@ export default {
     ],
     devs: [
         {
+            invite: '9SnEXpNcrH' as string, // Warlocks  
+            cargo: 'Estagiário de desenvolvimento de software' as string,
+            autando: '22/07/2024 até o presente momento' as string,
+        },
+        {
             invite: 'yzFt6kWrju' as string, // ADG Development
             cargo: 'Dono' as string,
             autando: '30/01/2023 até o presente momento' as string,
