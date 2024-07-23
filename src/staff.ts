@@ -20,11 +20,11 @@ export default {
             cargo: 'Administrador' as string,
             autando: '19/12/2022 até o presente momento' as string,
         },
-        {
+        /*{
             invite: 'sosrs' as string, // SOS Rio Grande do Sul
             cargo: 'Colaborador' as string,
             autando: '10/05/2024 até o presente momento' as string
-        },
+        },*/
         {
             invite: 'omletarcade' as string,
             cargo: 'Ex-Trust & Safety' as string,
