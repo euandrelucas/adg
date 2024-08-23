@@ -75,7 +75,7 @@ export default {
         {
             invite: 'yoshimia' as string,
             cargo: 'Desenvolvedor' as string,
-            autando: '22/05/2024 até o presente momento' as string,
+            autando: '22/05/2024 até 22/08/2024' as string,
         }
     ]
 }
