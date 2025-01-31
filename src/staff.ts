@@ -73,7 +73,7 @@ export default {
             autando: '01/06/2024 até o presente momento' as string,
         },
         {
-            invite: 'yoshimia' as string,
+            invite: 'XrHkc8BF4S' as string, // Yoshimia
             cargo: 'Desenvolvedor' as string,
             autando: '22/05/2024 até 22/08/2024' as string,
         }
