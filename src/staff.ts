@@ -6,6 +6,11 @@ export default {
             autando: '06/10/2023 até o presente momento' as string,
         },
         {
+            invite: '7f8RRyW5KS' as string,
+            cargo: 'Gerente de Comunidade' as string,
+            autando: '14/01/2025 até o presente momento' as string,
+        },
+        {
             invite: 'elixirlab' as string,
             cargo: 'Gerente de Comunidade' as string,
             autando: '04/05/2022 até o presente momento' as string,
@@ -20,11 +25,11 @@ export default {
             cargo: 'Administrador' as string,
             autando: '19/12/2022 até o presente momento' as string,
         },
-        /*{
-            invite: 'sosrs' as string, // SOS Rio Grande do Sul
+        {
+            invite: 'jpzr54atdP' as string, // SOS Rio Grande do Sul
             cargo: 'Colaborador' as string,
-            autando: '10/05/2024 até o presente momento' as string
-        },*/
+            autando: '10/05/2024 até o 07/11/2024' as string
+        },
         {
             invite: 'omletarcade' as string,
             cargo: 'Ex-Trust & Safety' as string,
@@ -65,12 +70,12 @@ export default {
         {
             invite: 'KQW7enScag' as string, // GoDiscord
             cargo: 'Desenvolvedor' as string,
-            autando: '04/05/2022 até o presente momento' as string,
+            autando: '04/05/2022 até o 23/07/2024' as string,
         },
         {
             invite: 'gou' as string,
             cargo: 'Desenvolvedor' as string,
-            autando: '01/06/2024 até o presente momento' as string,
+            autando: '01/06/2024 até o 18/01/2025' as string,
         },
         {
             invite: 'XrHkc8BF4S' as string, // Yoshimia
